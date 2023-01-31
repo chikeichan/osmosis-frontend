@@ -43,7 +43,7 @@ export const AddLiquidityModal: FunctionComponent<
       },
       children: config.error
         ? t(...tError(config.error))
-        : t("addLiquidity.title"),
+        : t("addLiquidity.titleaa"),
     },
     props.onRequestClose
   );
